@@ -13,8 +13,7 @@ class Account:
 
     allowed_values = ['CARD_PAYMENT', 'TRANSFER', 'FEE', 'CARD_REFUND']
 
-    not_allowed = ['To Univ Of Manchester', 'Depositing savings', 'Withdrawing savings',
-                   'Cavendish Place', 'Manchester Su', 'Sp Ratta Us', 'Uom Student Fee'
+    not_allowed = [
                    ]
 
 
