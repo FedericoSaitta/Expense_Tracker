@@ -11,10 +11,9 @@ months = {
 class Account:
     white_list = ['CARD_PAYMENT', 'TRANSFER', 'FEE', 'CARD_REFUND']
 
-    black_list = ['To Univ Of Manchester', 'Depositing savings', 'Withdrawing savings',
-                  'Cavendish Place', 'Manchester Su', 'Sp Ratta Us', 'Uom Student Fee', 'To Apex Self Storage',
-                  'Stagecoach']
-
+    # Vendors whose transactions I want to exclude
+    black_list = ['To Univ Of Manchester', 'Depositing savings', 'Withdrawing savings'] 
+    
     cache = []
 
     def __init__(self, name, file):
